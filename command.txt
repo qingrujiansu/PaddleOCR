@@ -1,0 +1,2 @@
+预测命令：
+python tools/infer/predict_system.py --image_dir="./works/images/1.png" --det_model_dir="./inference/ch_PP-OCRv3_det_infer/"  --rec_model_dir="./inference/ch_PP-OCRv3_rec_infer/" --cls_model_dir="./inference/ch_ppocr_mobile_v2.0_cls_infer/" --use_angle_cls=True --use_space_char=True
